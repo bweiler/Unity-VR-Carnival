@@ -2552,7 +2552,7 @@ GameObject:
   - component: {fileID: 7941016371339270941}
   m_Layer: 0
   m_Name: bottle.003
-  m_TagString: Untagged
+  m_TagString: Bottle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2942,7 +2942,7 @@ GameObject:
   - component: {fileID: 7639977271939606666}
   m_Layer: 0
   m_Name: bottle.002
-  m_TagString: Untagged
+  m_TagString: Bottle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3122,7 +3122,7 @@ GameObject:
   - component: {fileID: 5653448861313444425}
   m_Layer: 0
   m_Name: bottle.004
-  m_TagString: Untagged
+  m_TagString: Bottle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3361,7 +3361,7 @@ GameObject:
   - component: {fileID: 7936176467505752045}
   m_Layer: 0
   m_Name: bottle.001
-  m_TagString: Untagged
+  m_TagString: Bottle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
