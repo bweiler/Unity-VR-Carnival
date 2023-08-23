@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class RingTossRingBehavior : MonoBehaviour
 {
-    private bool _isAroundBottle;
-    // Start is called before the first frame update
+    [SerializeField] private bool _isAroundBottle;
+    [SerializeField] private RingTossBoothService _ringTossBoothService;
+
     void Start()
     {
-        
+        _ringTossBoothService = FindObjectOfType<RingTossBoothService>();
+        Debug.Log("made it ");
     }
 
     private void OnTriggerEnter(Collider other)
@@ -33,9 +35,9 @@ public class RingTossRingBehavior : MonoBehaviour
     private IEnumerator ScoreDelay()
     {
         yield return new WaitForSeconds(3f);
-        if (_isAroundBottle)
+        if (_ringTossBoothService != null && _isAroundBottle)
         {
-            // add to score
+            _ringTossBoothService.AddToScore();
         }
     }
 }
